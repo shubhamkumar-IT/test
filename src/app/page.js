@@ -34,27 +34,48 @@ export default function HeroSection() {
     // Clean up the event listener
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+  
 
   return (
     <>
-      {/* Header */}
-      <header
-        className={`w-full text-white fixed top-0 left-0 z-50 transition-all duration-300 ${
-          scrolled ? "bg-white text-black" : "bg-transparent text-white"
-        }`}
-      >
-        <div className="max-w-7xl mx-auto p-5 flex items-center justify-between">
-          <div className="text-2xl font-semibold">
-            <a href="/" className={`text-${scrolled ? "black" : "white"}`}>
-             <img src="/logo.png" alt="" className="h-16"/>
-            </a>
-          </div>
+     <header
+      className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
+        scrolled ? "bg-white text-black shadow-lg" : "bg-transparent text-white"
+      }`}
+    >
+      <div className="max-w-7xl mx-auto p-5 flex items-center justify-between">
+        {/* Logo */}
+        <div className="text-2xl font-semibold">
+          <a href="/">
+            <img src="/logo.png" alt="Logo" className="h-16" />
+          </a>
+        </div>
 
-          {/* Hamburger Icon */}
-          <button
-            className="md:hidden flex items-center text-white"
-            onClick={toggleMenu}
-          >
+        {/* Hamburger Icon (Mobile) */}
+        <button
+          className={`md:hidden flex items-center ${
+            scrolled ? "text-black" : "text-white"
+          }`}
+          onClick={toggleMenu}
+        >
+          {isMenuOpen ? (
+            // Close (X) icon when menu is open
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          ) : (
+            // Hamburger icon when menu is closed
             <svg
               className="w-6 h-6"
               fill="none"
@@ -69,43 +90,46 @@ export default function HeroSection() {
                 d="M4 6h16M4 12h16M4 18h16"
               ></path>
             </svg>
-          </button>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6">
-            <a href="#home" className="hover:text-[#bc3677]">
-              Home
-            </a>
-            <a href="#about" className="hover:text-[#bc3677]">
-              About
-            </a>
-            <a href="#courses" className="hover:text-[#bc3677]">
-              Courses
-            </a>
-            <a href="#contact" className="hover:text-[#bc3677]">
-              Contact
-            </a>
-          </nav>
-
-          {/* Mobile Menu */}
-          {isMenuOpen && (
-            <div className="absolute top-0 right-0 w-64 bg-gray-800 text-white py-4 px-6 md:hidden">
-              <a href="#home" className="block py-2">
-                Home
-              </a>
-              <a href="#about" className="block py-2">
-                About
-              </a>
-              <a href="#courses" className="block py-2">
-                Courses
-              </a>
-              <a href="#contact" className="block py-2">
-                Contact
-              </a>
-            </div>
           )}
+        </button>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex space-x-6">
+          <a href="#home" className="hover:text-[#bc3677]">
+            Home
+          </a>
+          <a href="#about" className="hover:text-[#bc3677]">
+            About
+          </a>
+          <a href="#courses" className="hover:text-[#bc3677]">
+            Courses
+          </a>
+          <a href="#contact" className="hover:text-[#bc3677]">
+            Contact
+          </a>
+        </nav>
+      </div>
+
+      {/* Mobile Dropdown Menu */}
+      {isMenuOpen && (
+        <div
+          className="absolute top-full left-0 w-full bg-gray-900 text-white py-4 transition-all duration-300"
+        >
+          <a href="#home" className="block py-2 text-center">
+            Home
+          </a>
+          <a href="#about" className="block py-2 text-center">
+            About
+          </a>
+          <a href="#courses" className="block py-2 text-center">
+            Courses
+          </a>
+          <a href="#contact" className="block py-2 text-center">
+            Contact
+          </a>
         </div>
-      </header>
+      )}
+    </header>
 
       {/* Video Background */}
       <section className="relative w-full h-screen">

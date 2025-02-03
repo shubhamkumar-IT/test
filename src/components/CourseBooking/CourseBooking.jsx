@@ -31,9 +31,9 @@ export default function CourseBooking() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2 }}
           >
-            <li className="flex items-center text-gray-700">
+            <li className="flex items-center text-gray-700 gap-2">
               <svg
-                className="w-6 h-6 mr-2 bg-[#bc3677]"
+                className="w-6 h-6 text-[#bc3677] border-[#bc3677] border-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
@@ -48,9 +48,9 @@ export default function CourseBooking() {
               </svg>
               Tailored driving lessons for beginners and advanced learners.
             </li>
-            <li className="flex items-center text-gray-700">
+            <li className="flex items-center text-gray-700 gap-2">
               <svg
-                className="w-6 h-6 mr-2 bg-[#bc3677]"
+                className="w-6 h-6 text-[#bc3677] border-[#bc3677] border-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
@@ -66,9 +66,9 @@ export default function CourseBooking() {
               Comprehensive education for first-time drivers to ensure safety on
               the road.
             </li>
-            <li className="flex items-center text-gray-700">
+            <li className="flex items-center text-gray-700 gap-2">
               <svg
-                className="w-6 h-6 mr-2 bg-[#bc3677]"
+                className="w-6 h-6 text-[#bc3677] border-[#bc3677] border-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
@@ -83,9 +83,9 @@ export default function CourseBooking() {
               </svg>
               Real-world driving experience with our certified instructors.
             </li>
-            <li className="flex items-center text-gray-700">
+            <li className="flex items-center text-gray-700 gap-2">
               <svg
-                className="w-6 h-6 mr-2 bg-[#bc3677]"
+                className="w-6 h-6 text-[#bc3677] border-[#bc3677] border-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
@@ -101,9 +101,9 @@ export default function CourseBooking() {
               Intensive preparation for passing your driving test with
               confidence.
             </li>
-            <li className="flex items-center text-gray-700">
+            <li className="flex items-center text-gray-700 gap-2">
               <svg
-                className="w-6 h-6 mr-2 bg-[#bc3677]"
+                className="w-6 h-6 text-[#bc3677] border-[#bc3677] border-2"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
