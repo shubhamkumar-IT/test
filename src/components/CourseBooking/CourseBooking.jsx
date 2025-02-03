@@ -173,23 +173,12 @@ export default function CourseBooking() {
                   placeholder="123-456-7890"
                 />
               </div>
-              <div className="mb-4">
-                <label htmlFor="website" className="block text-gray-700">
-                  Website
-                </label>
-                <input
-                  type="text"
-                  id="website"
-                  name="website"
-                  className="w-full p-3 mt-2 border border-gray-300 rounded-md"
-                  placeholder="yourwebsite.com"
-                />
-              </div>
+
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white py-3 rounded-lg mt-4"
+                className="w-full bg-[#bc3677] text-white py-3 rounded-lg mt-4"
               >
-                Apply Now
+                Submit
               </button>
             </form>
           </motion.div>
