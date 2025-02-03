@@ -120,44 +120,43 @@ export default function HeroSection() {
 
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
-          <div className="text-center text-white px-6 md:px-12">
-            {/* Heading */}
-            <motion.h1
-              className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6"
-              initial={{ opacity: 0, y: -50 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              Welcome to <br></br>STEP IN DRIVING SCHOOL 
-            </motion.h1>
+  <div className="text-center text-white px-6 md:px-12">
+    {/* Heading */}
+    <motion.h1
+      className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6"
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+    >
+      Welcome to <br /> STEP IN DRIVING SCHOOL
+    </motion.h1>
 
-            {/* Subheading */}
-            <motion.p
-              className="text-xl mb-6"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-            >
-              Looking for a reliable driving school in Brampton?
-              <br /> STEP IN DRIVING SCHOOL offers affordable driving lessons, driving test preparation, and specialized manual driving lessons. 
-            </motion.p>
+    {/* Subheading */}
+    <motion.p
+      className="text-xl mb-6"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
+      Looking for a reliable driving school in Brampton?
+      <br /> STEP IN DRIVING SCHOOL offers affordable driving lessons, driving test preparation, and specialized manual driving lessons.
+    </motion.p>
 
-            {/* Button */}
-            <motion.div
-              className="inline-block"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              <a
-                href="#"
-                className="bg-[#bc3677] text-white py-2 px-6 rounded-full text-lg"
-              >
-                How We Help
-              </a>
-            </motion.div>
-          </div>
-        </div>
+    {/* Mouse Scroll Icon */}
+    <motion.div
+      className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
+    >
+      <div className="w-6 h-10 border-2 border-white rounded-full flex items-center justify-center">
+        <div className="w-1 h-3 bg-white rounded-full animate-bounce"></div>
+      </div>
+      <span className="text-white mt-2 text-sm">Scroll Down</span>
+    </motion.div>
+  </div>
+</div>
+
       </section>
       <WelcomeSection />
       <DrivingPackages/>

@@ -37,11 +37,11 @@ export default function AdvancedLearning() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon1.png" // Replace with actual icon path
+              {/* <img
+                src="/path-to-your-icon1.png" 
                 alt="Shoulder Drop off"
                 className="w-16 h-16 text-orange-500"
-              />
+              /> */}
             </div>
             <h3 className="text-xl text-black font-semibold mb-2">
               Shoulder Drop off
@@ -60,11 +60,11 @@ export default function AdvancedLearning() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon2.png" // Replace with actual icon path
+              {/* <img
+                src="/path-to-your-icon2.png" 
                 alt="Head-On Collision Avoidance"
                 className="w-16 h-16 text-blue-500"
-              />
+              /> */}
             </div>
             <h3 className="text-xl text-black font-semibold mb-2">
               Head-On Collision Avoidance
@@ -83,11 +83,11 @@ export default function AdvancedLearning() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon3.png" // Replace with actual icon path
+              {/* <img
+                src="/path-to-your-icon3.png" 
                 alt="Emergency Escape Route"
                 className="w-16 h-16 text-purple-500"
-              />
+              /> */}
             </div>
             <h3 className="text-xl text-black font-semibold mb-2">
               Emergency Escape Route
@@ -107,11 +107,11 @@ export default function AdvancedLearning() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon4.png" // Replace with actual icon path
+              {/* <img
+                src="/path-to-your-icon4.png" 
                 alt="Brake and Avoid"
                 className="w-16 h-16 text-red-500"
-              />
+              /> */}
             </div>
             <h3 className="text-xl text-black font-semibold mb-2">
               Brake and Avoid (Threshold Braking)

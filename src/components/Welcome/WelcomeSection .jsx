@@ -34,11 +34,7 @@ export default function WelcomeSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon1.svg"
-                alt="Icon 1"
-                className="w-12 h-12"
-              />
+              <img src="/ot.png" alt="Icon 1" className="w-12 h-12" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Our Training
@@ -58,11 +54,7 @@ export default function WelcomeSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon2.svg"
-                alt="Icon 2"
-                className="w-12 h-12"
-              />
+              <img src="/hs.png" alt="Icon 2" className="w-12 h-12" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Highway Safety
@@ -82,11 +74,7 @@ export default function WelcomeSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon3.svg"
-                alt="Icon 3"
-                className="w-12 h-12"
-              />
+              <img src="/cp.png" alt="Icon 3" className="w-12 h-12" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Customized Programs
@@ -104,11 +92,7 @@ export default function WelcomeSection() {
             transition={{ duration: 0.8 }}
           >
             <div className="flex justify-center mb-4">
-              <img
-                src="/path-to-your-icon3.svg"
-                alt="Icon 3"
-                className="w-12 h-12"
-              />
+              <img src="/tt.png" alt="Icon 3" className="w-12 h-12" />
             </div>
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Traffic Rules Test
