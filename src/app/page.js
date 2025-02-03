@@ -185,7 +185,7 @@ export default function HeroSection() {
 
         {/* Right side: Phone number with icon */}
         <motion.div
-          className="flex items-center space-x-3 w-full md:w-[35%]"
+          className="flex items-center justify-start md:justify-end space-x-3 w-full md:w-[35%]"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
