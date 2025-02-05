@@ -95,10 +95,10 @@ export default function HeroSection() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:text-[#bc3677]">
+          <a href="/" className="hover:text-[#bc3677]">
             Home
           </a>
-          <a href="#about" className="hover:text-[#bc3677]">
+          <a href="/about-us" className="hover:text-[#bc3677]">
             About
           </a>
           <a href="#courses" className="hover:text-[#bc3677]">
@@ -115,10 +115,10 @@ export default function HeroSection() {
         <div
           className="absolute top-full left-0 w-full bg-gray-900 text-white py-4 transition-all duration-300"
         >
-          <a href="#home" className="block py-2 text-center">
+          <a href="/" className="block py-2 text-center">
             Home
           </a>
-          <a href="#about" className="block py-2 text-center">
+          <a href="/about-us" className="block py-2 text-center">
             About
           </a>
           <a href="#courses" className="block py-2 text-center">
@@ -168,12 +168,12 @@ export default function HeroSection() {
 
     {/* Mouse Scroll Icon */}
     <motion.div
-      className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
+      className="absolute bottom-10  justify-center transform -translate-x-1/2 flex flex-col items-center"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
     >
-      <div className="w-6 h-10 border-2 border-white rounded-full flex items-center justify-center">
+      <div className="w-6 h-10  border-2 border-white rounded-full flex items-center justify-center">
         <div className="w-1 h-3 bg-white rounded-full animate-bounce"></div>
       </div>
       <span className="text-white mt-2 text-sm">Scroll Down</span>
