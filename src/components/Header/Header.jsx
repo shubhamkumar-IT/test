@@ -49,7 +49,7 @@ export default function Header() {
           <a href="#courses" className="hover:text-[#bc3677]">
             Courses
           </a>
-          <a href="#contact" className="hover:text-[#bc3677]">
+          <a href="/contact-us" className="hover:text-[#bc3677]">
             Contact
           </a>
         </nav>
@@ -66,7 +66,7 @@ export default function Header() {
             <a href="#courses" className="block py-2">
               Courses
             </a>
-            <a href="#contact" className="block py-2">
+            <a href="/contact-us" className="block py-2">
               Contact
             </a>
           </div>

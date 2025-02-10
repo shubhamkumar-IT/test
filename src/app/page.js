@@ -104,7 +104,7 @@ export default function HeroSection() {
           <a href="#courses" className="hover:text-[#bc3677]">
             Courses
           </a>
-          <a href="#contact" className="hover:text-[#bc3677]">
+          <a href="/contact-us" className="hover:text-[#bc3677]">
             Contact
           </a>
         </nav>
@@ -124,7 +124,7 @@ export default function HeroSection() {
           <a href="#courses" className="block py-2 text-center">
             Courses
           </a>
-          <a href="#contact" className="block py-2 text-center">
+          <a href="/contact-us" className="block py-2 text-center">
             Contact
           </a>
         </div>
@@ -139,7 +139,7 @@ export default function HeroSection() {
           muted
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
-          <source src="/sds2.mp4" type="video/mp4" />
+          <source src="/sds3.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay */}
@@ -168,18 +168,19 @@ export default function HeroSection() {
 
     {/* Mouse Scroll Icon */}
     <motion.div
-      className="absolute bottom-10  justify-center transform -translate-x-1/2 flex flex-col items-center"
+      className="absolute  left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
     >
-      <div className="w-6 h-10  border-2 border-white rounded-full flex items-center justify-center">
+      <div className="w-6 h-10 border-2 border-white rounded-full flex items-center justify-center">
         <div className="w-1 h-3 bg-white rounded-full animate-bounce"></div>
       </div>
       <span className="text-white mt-2 text-sm">Scroll Down</span>
     </motion.div>
   </div>
 </div>
+
 
       </section>
       <WelcomeSection />
@@ -232,8 +233,8 @@ export default function HeroSection() {
               d="M12 8V4m0 16v-4m4.293-9.707l2.121 2.121M6.707 18.707l-2.121-2.121"
             ></path>
           </svg>
-          <a href="tel:+19003333333" className="text-lg font-semibold">
-            +1-900-333-333
+          <a href="tel:+1 905-805-1233" className="text-lg font-semibold">
+            +1 905-805-1233
           </a>
         </motion.div>
       </div>

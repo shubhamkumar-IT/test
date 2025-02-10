@@ -110,7 +110,7 @@ const page = () => {
           <a href="#courses" className="hover:text-[#bc3677]">
             Courses
           </a>
-          <a href="#contact" className="hover:text-[#bc3677]">
+          <a href="/contact-us" className="hover:text-[#bc3677]">
             Contact
           </a>
         </nav>
@@ -130,13 +130,13 @@ const page = () => {
           <a href="#courses" className="block py-2 text-center">
             Courses
           </a>
-          <a href="#contact" className="block py-2 text-center">
+          <a href="/contact-us" className="block py-2 text-center">
             Contact
           </a>
         </div>
       )}
     </header>
-          <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: "url('/stepin11.jpg')" }}>
+          <section className="relative w-full h-[15rem] md:h-screen bg-cover bg-center" style={{ backgroundImage: "url('/stepin11.jpg')" }}>
         {/* Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-20 flex items-center justify-center">
          
@@ -171,9 +171,9 @@ const page = () => {
         transition={{ duration: 0.7 }}
       >
         <img 
-          src="/stepin1.jpg" 
+          src="/stepin16.png" 
           alt="HubSpot Team" 
-          className="rounded-lg shadow-lg max-w-full h-auto"
+          className=" max-w-full h-auto"
         />
       </motion.div>
           </section>

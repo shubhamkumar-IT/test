@@ -1,37 +1,44 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const packages = [
   {
     title: "Beginner Package",
     price: "$199",
     description: "Basic driving lessons for beginners.",
+    link: "/beginner-package",
   },
   {
     title: "Intermediate Package",
     price: "$299",
     description: "Advanced driving skills and maneuvers.",
+    link: "/intermediate-package",
   },
   {
     title: "Highway Training",
     price: "$249",
     description: "Learn safe highway driving techniques.",
+    link: "/highway-training",
   },
   {
     title: "Defensive Driving",
     price: "$349",
     description: "Avoid accidents and drive safely.",
+    link: "/defensive-driving",
   },
   {
     title: "Parallel Parking Mastery",
     price: "$179",
     description: "Perfect your parking skills.",
+    link: "/paralle-parking-mastery",
   },
   {
     title: "Full Driving Course",
     price: "$499",
     description: "Complete driving training package.",
+    link: "/full-driving-course",
   },
 ];
 
@@ -73,6 +80,14 @@ export default function DrivingPackages() {
               <span className="text-lg font-bold text-[#bc3677]">
                 {pkg.price}
               </span>
+              <div className="mt-4">
+                <Link
+                  href={pkg.link}
+                  className="text-[#bc3677] font-semibold hover:underline"
+                >
+                  Learn More
+                </Link>
+              </div>
             </motion.div>
           ))}
         </div>
