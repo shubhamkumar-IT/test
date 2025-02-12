@@ -9,42 +9,42 @@ const packages = [
     price: "$575+ HST (MTO Fee Included)",
     description:
       "20 hours in-class (Online), 10 hours in-car driving lessons, 10 hours home-links, Reduces waiting period by 4 months, BDE students graduate with a certificate and may be eligible for an insurance discount, One on one training",
-    link: "/registration",
+    link: "/our-courses",
   },
   {
     title: "MINISTRY APPROVED BEGINNER DRIVER EDUCATION PROGRAM PKG-2",
     price: "$725+ HST (MTO Fee Included)",
     description:
       "20 hours in-class (Online), 11 hours in-car driving lessons, 10 hours home-links, Use of our car for the G2 road test (Nearest Location), Booking of the road test, Reduces waiting period by 4 months, BDE students graduate with a certificate and may be eligible for an insurance discount, One on one training",
-    link: "/registration",
+    link: "/our-courses",
   },
   {
     title: "G2 Preparation Packages - PKG-3",
     price: "$240 + HST",
     description:
       "2 lessons and road test (Nearest location), One on one lessons, Male and female instructors available, Each lesson is 45 mins long, Free pick-up and drop-off in Brampton",
-    link: "/registration",
+    link: "/our-courses",
   },
   {
     title: "G2 Preparation Packages - PKG-4",
     price: "$280 + HST",
     description:
       "3 lessons and road test (Nearest Location), One on one lessons, Male and female instructors available, Each lesson is 45 mins long, Free pick-up and drop-off in Brampton",
-    link: "/registration",
+    link: "/our-courses",
   },
   {
     title: "G2 Preparation Packages - PKG-5",
     price: "$360 + HST",
     description:
       "5 lessons and road test (Nearest Location), One on one lessons, Male and female instructors available, Each lesson is 45 mins long, Free pick-up and drop-off in Brampton",
-    link: "/registration",
+    link: "/our-courses",
   },
   {
     title: "G2 Preparation Packages - PKG-6",
     price: "$440 + HST",
     description:
       "7 lessons and road test (Nearest Location), One on one lessons, Male and female instructors available, Each lesson is 45 mins long, Free pick-up and drop-off in Brampton",
-    link: "/registration",
+    link: "/our-courses",
   },
   // {
   //   title: "G2 Preparation Packages - PKG-7",
