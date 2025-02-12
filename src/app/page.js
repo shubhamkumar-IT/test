@@ -101,7 +101,7 @@ export default function HeroSection() {
           <a href="/about-us" className="hover:text-[#bc3677]">
             About
           </a>
-          <a href="#courses" className="hover:text-[#bc3677]">
+          <a href="/our-courses" className="hover:text-[#bc3677]">
             Courses
           </a>
           <a href="/contact-us" className="hover:text-[#bc3677]">
@@ -121,7 +121,7 @@ export default function HeroSection() {
           <a href="/about-us" className="block py-2 text-center">
             About
           </a>
-          <a href="#courses" className="block py-2 text-center">
+          <a href="/our-courses" className="block py-2 text-center">
             Courses
           </a>
           <a href="/contact-us" className="block py-2 text-center">

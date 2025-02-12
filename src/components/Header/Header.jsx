@@ -46,7 +46,7 @@ export default function Header() {
           <a href="/about-us" className="hover:text-[#bc3677]">
             About
           </a>
-          <a href="#courses" className="hover:text-[#bc3677]">
+          <a href="/our-courses" className="hover:text-[#bc3677]">
             Courses
           </a>
           <a href="/contact-us" className="hover:text-[#bc3677]">
@@ -57,13 +57,13 @@ export default function Header() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="absolute top-0 right-0 w-64 bg-gray-800 text-white py-4 px-6 md:hidden">
-            <a href="#home" className="block py-2">
+            <a href="/" className="block py-2">
               Home
             </a>
-            <a href="#about" className="block py-2">
+            <a href="/about-us" className="block py-2">
               About
             </a>
-            <a href="#courses" className="block py-2">
+            <a href="/our-courses" className="block py-2">
               Courses
             </a>
             <a href="/contact-us" className="block py-2">
