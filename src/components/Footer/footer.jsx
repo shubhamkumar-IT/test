@@ -23,31 +23,25 @@ export default function Footer() {
               that trains responsible and safe drivers. We focus on the highest
               quality instruction and technology-friendly learning.
             </p>
-            <p className="text-sm mt-2">
-              Since 1993, we have become one of the largest driver training
-              organizations with 20 locations in Ontario.
-            </p>
+            
 
             {/* Social Icons */}
             <div className="flex items-center mt-4 space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Stepindriving/"
                 className="text-white text-xl hover:text-blue-500 transition"
+                target="_blank"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/stepindrivingschool/"
+                target="_blank"
                 className="text-white text-xl hover:text-pink-500 transition"
               >
                 <FaInstagram />
               </a>
-              <a
-                href="#"
-                className="text-white text-xl hover:text-red-500 transition"
-              >
-                <FaYoutube />
-              </a>
+              
             </div>
 
             {/* App Store Buttons */}

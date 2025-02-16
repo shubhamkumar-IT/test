@@ -144,7 +144,7 @@ export default function WhyChooseUs() {
                 <p className="text-gray-600">
                   Interested in learning to drive a manual car? We offer
                   specialized manual driving school Brampton programs for those
-                  who prefer the challenge and control of a manual transmission.
+                  who prefer the challenge .
                   Gain full confidence in your driving skills with our expert
                   instructors.
                 </p>

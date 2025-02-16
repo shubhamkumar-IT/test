@@ -159,7 +159,7 @@ const page = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          Welcome to STEP IN DRIVING SCHOOL, the premier driving school in Brampton dedicated to helping you become a safe, confident, and skilled driver. Whether you're a beginner or looking for driving test preparation in Brampton, we offer personalized Brampton driving lessons tailored to your needs.At STEP IN DRIVING SCHOOL, we provide top-notch driving lessons in Brampton designed to make you a confident and safe driver. Whether you're looking to learn the basics, prepare for your driving test, or master the art of driving a manual transmission, we are here to help.
+          Welcome to STEP IN DRIVING SCHOOL, the premier driving school in Brampton dedicated to helping you become a safe, confident, and skilled driver. Whether you're a beginner or looking for driving test preparation in Brampton, we offer personalized Brampton driving lessons tailored to your needs.At STEP IN DRIVING SCHOOL, we provide top-notch driving lessons in Brampton designed to make you a confident and safe driver. Whether you're looking to learn the basics, prepare for your driving test, we are here to help.
         </motion.p>
       </div>
       
