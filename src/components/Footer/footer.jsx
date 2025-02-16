@@ -51,12 +51,12 @@ export default function Footer() {
           <div className="flex flex-col justify-center text-center">
             <h2 className="text-lg font-semibold text-white mb-4">Programs</h2>
             <ul className="text-sm space-y-1">
-              <li>Beginner Driver Education Program</li>
-              <li>Advanced Driver Education Program</li>
-              <li>G2 & G Road Test Packages</li>
-              <li>Complete Refresher Program</li>
-              <li>Defensive Driving Course</li>
-              <li>Winter Time Driving Program</li>
+              <li><a href="/our-courses">Beginner Driver Education Program</a></li>
+              <li><a href="/our-courses">Advanced Driver Education Program</a></li>
+              <li><a href="/our-courses">G2 & G Road Test Packages</a></li>
+              <li><a href="/our-courses">Complete Refresher Program</a></li>
+              <li><a href="/our-courses">Defensive Driving Course</a></li>
+              <li><a href="/our-courses">Winter Time Driving Program</a></li>
             </ul>
           </div>
 
@@ -66,12 +66,11 @@ export default function Footer() {
               Quick Links
             </h2>
             <ul className="text-sm space-y-1">
-              <li>About Us</li>
-              <li>Contact Locations</li>
-              <li>Blog</li>
-              <li>Road Test Booking</li>
-              <li>Instructor Login</li>
-              <li>Student Login</li>
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/contact-us">Contact Locations</a></li>
+              {/* <li>Blog</li> */}
+              <li><a href="registration">Road Test Booking</a></li>
+              
             </ul>
           </div>
         </motion.div>
@@ -83,7 +82,7 @@ export default function Footer() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          © 2024 Ultimate Drivers. All rights reserved.
+          © 2025 <a href="/">StepIN Driving School</a>. All rights reserved.
         </motion.div>
       </div>
     </footer>
